@@ -1,9 +1,18 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Три линии, имитирующие стопку документов (группу) -->
-  <rect x="2.5" y="3.5" width="7" height="1.2" rx="0.3" fill="#455A64"/>
-  <rect x="2.5" y="6" width="7" height="1.2" rx="0.3" fill="#455A64"/>
-  <rect x="2.5" y="8.5" width="7" height="1.2" rx="0.3" fill="#455A64"/>
-  <!-- Элемент управления: плюс/минус или стрелка справа -->
-  <circle cx="12" cy="7" r="2.4" stroke="#5180D8" stroke-width="1.2"/>
-  <path d="M12 5.5V8.5M10.5 7H13.5" stroke="#5180D8" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Вертикальная линия связи (как в дереве) -->
+  <path d="M5 3V12" stroke="#B0BEC5" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Линии к документам (горизонтальные) -->
+  <path d="M5 5H7" stroke="#B0BEC5" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M5 8H7" stroke="#B0BEC5" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M5 11H7" stroke="#B0BEC5" stroke-width="1.2" stroke-linecap="round"/>
+  
+  <!-- Сами документы (иконки листов) -->
+  <path d="M8.5 4L10 4L11 5L11 7L8.5 7L8.5 4Z" fill="white" stroke="#455A64" stroke-width="1"/>
+  <path d="M8.5 7L11 7" stroke="#455A64" stroke-width="1"/>
+  
+  <path d="M8.5 8L10 8L11 9L11 11L8.5 11L8.5 8Z" fill="white" stroke="#455A64" stroke-width="1"/>
+  <path d="M8.5 11L11 11" stroke="#455A64" stroke-width="1"/>
+  
+  <!-- Стрелка разворачивания/сворачивания -->
+  <path d="M13 7L15 9L13 11" stroke="#5180D8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
